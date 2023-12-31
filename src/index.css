@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #1e1e24;
+
+}
+::-webkit-scrollbar-thumb{
+    background: #3f3f40;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+.instagram-icon {
+    font-size: 50px;
+    color: purple;
+    animation: rotate 2s linear infinite; /* تطبيق الدوران بشكل مستمر */
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg); /* دوران كامل بزاوية 360 درجة */
+    }
+  }
